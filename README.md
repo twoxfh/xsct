@@ -27,6 +27,12 @@ Minor modifications were made in order to get sct to:
 On UNIX-based systems, a convenient method of building this software is using Make.
 Since the `Makefile` is simple and portable, both the BSD and [GNU make](https://www.gnu.org/software/make/) variants will have no problems parsing and executing it correctly.
 
+You may need x11 and xrandr libraries if they are not already on your system
+
+~~~sh
+ sudo apt-get install libxrandr-dev x11-xserver-utils
+~~~
+
 The simplest invocation is
 ~~~sh
 make
